@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "main.h"
 /**
 * main - causes an infinite loop
-* Return : void
+* Return : 0
 */
-int main(void)
+int main(void);
 {
 int i;
 /*while (i < 10)*/
