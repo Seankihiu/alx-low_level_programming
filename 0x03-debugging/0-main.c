@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
 * main - Test function for positive or negative
-* return : 0
-* void positive_or_negative(int i);
+* Return : 0
+* 
 */
 int main(void)
 {
