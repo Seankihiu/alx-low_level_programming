@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main - Determine if number is positive, negative or zero.
-* @i : is the number to be checked
-* Return : void
+* positive_or_negative - prints whether a number is positive, negative or zero.
+* @i: is the number to be checked
+* Return: void
 */
 void positive_or_negative(int i)
 {
