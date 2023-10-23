@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * _memset - fill a block of memory with a specific value
 * @s: starting address of memory to be filled
@@ -14,4 +13,6 @@ for (; n > 0; i++)
 {
 s[i] = b;
 n--;
+}
+return(s);
 }
