@@ -1,27 +1,21 @@
 #include "main.h"
 /**
-* _strspn - Entry point
+* _strpbrk - Entry point
 * @s: input
 * @accept: input
 * Return: Always 0 (Success)
 */
-unsigned int _strspn(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-unsigned int n = 0;
-int k;
+int b;
 while (*s)
 {
-for (k = 0; accept[k]; k++)
+for (b = 0; accept[b]; b++)
 {
-if (*s == accept[k])
-{
-n++;
-break;
-}
-else if (accept[k + 1] == '\0')
-return (n);
+if (*s == accept[b])
+return (s);
 }
 s++;
 }
-return (n);
+return ('\0');
 }
