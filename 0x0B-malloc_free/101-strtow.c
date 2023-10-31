@@ -23,7 +23,7 @@ w++;
 return (w);
 }
 /**
-* strtow - splits a string into words
+* **strtow - splits a string into words
 * @str: string to split
 * Return: pointer to an array of strings (Success)
 * or NULL (Error)
@@ -59,7 +59,7 @@ c = 0;
 }
 }
 else if (c++ == 0)
-start = I;
+start = i;
 }
 matrix[k] = NULL;
 return (matrix);
