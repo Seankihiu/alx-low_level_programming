@@ -168,7 +168,8 @@ printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 */
 void print_abi(unsigned char *e_ident)
 {
-printf("  ABI Version:%d\n", e_ident[EI_ABIVERSION]);
+printf("ABI Version: %d\n"
+e_ident[EI_ABIVERSION]);
 }
 /**
 * print_type - Prints the type of an ELF header.
